@@ -23,16 +23,92 @@
   </head>
 
   <body>
-    <header class="jumbotron">
+    <header class="jumbotron pb-1 mb-1">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <div id="savedMsg" class="text-center d-none">
+      <h5>Event saved to localStorage!</h5>
+    </div>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <div id="hr-9" class="row hr-row" data-hr="9">
+        <div class="col-md-1 hr-label" data-hr="9">
+          9am
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="9">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="9">SAVE</button>
+      </div>
+      <div id="hr-10" class="row hr-row" data-hr="10">
+        <div class="col-md-1 hr-label" data-hr="10">
+          10am
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="10">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="10">SAVE</button>
+      </div>
+      <div id="hr-11" class="row hr-row" data-hr="11">
+        <div class="col-md-1 hr-label" data-hr="11">
+          11am
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="11">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="11">SAVE</button>
+      </div>
+      <div id="hr-12" class="row hr-row" data-hr="12">
+        <div class="col-md-1 hr-label" data-hr="12">
+          12pm
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="12">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="12">SAVE</button>
+      </div>
+      <div id="hr-13" class="row hr-row" data-hr="13">
+        <div class="col-md-1 hr-label" data-hr="13">
+          1pm
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="13">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="13">SAVE</button>
+      </div>
+      <div id="hr-14" class="row hr-row" data-hr="14">
+        <div class="col-md-1 hr-label" data-hr="14">
+          2pm
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="14">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="14">SAVE</button>
+      </div>
+      <div id="hr-15" class="row hr-row" data-hr="15">
+        <div class="col-md-1 hr-label" data-hr="15">
+          3pm
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="15">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="15">SAVE</button>
+      </div>
+      <div id="hr-16" class="row hr-row" data-hr="16">
+        <div class="col-md-1 hr-label" data-hr="16">
+          4pm
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="16">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="16">SAVE</button>
+      </div>
+      <div id="hr-17" class="row hr-row" data-hr="17">
+        <div class="col-md-1 hr-label" data-hr="17">
+          5pm
+        </div>
+        <textarea class="col-md-10 hr-event" data-hr="17">
+        </textarea>
+        <button class="btn saveEventBtn col-md-1" data-hr="17">SAVE</button>
+      </div>
+      
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
