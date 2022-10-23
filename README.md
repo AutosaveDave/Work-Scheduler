@@ -3,6 +3,8 @@
 
 https://dccoppock.github.io/Work-Scheduler/
 
+![Work Scheduler Screenshot](./assets/images/workSchedulerScreenshot.png?raw=true "Screenshot")
+
 ## Description
 
 The Work Scheduler allows users to plan their workdays by saving event descriptions in their browser's localStorage.
